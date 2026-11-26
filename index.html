@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Progress | Reading & Audiobook Tracker</title>
+  <meta name="description" content="Personal reading and audiobook analytics dashboard.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="logo-title">📚 Book Progress</h1>
+        <p class="logo-subtitle">Reading & Audiobook Tracker</p>
+      </div>
+      <div class="header-right">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- KPI Metrics Summary Grid -->
+    <section class="kpis-grid" id="kpis-container">
+      <div class="kpi-card">
+        <div class="kpi-label">Total Books</div>
+        <div class="kpi-value" id="kpi-books">-</div>
+        <div class="kpi-sub" id="kpi-books-sub">Finished</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Pages Read</div>
+        <div class="kpi-value" id="kpi-pages">-</div>
+        <div class="kpi-sub" id="kpi-pages-sub">Print & E-Books</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Audio Listened</div>
+        <div class="kpi-value" id="kpi-audio">-</div>
+        <div class="kpi-sub" id="kpi-audio-sub">Audiobooks</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Words Consumed</div>
+        <div class="kpi-value" id="kpi-words">-</div>
+        <div class="kpi-sub">Across All Formats</div>
+      </div>
+    </section>
+
+    <!-- Interactive Charts Section -->
+    <section class="accordion-section" id="charts-section">
+      <div class="accordion-header" id="heading-charts">
+        <div class="accordion-title-wrap">
+          <span class="chart-header-icon">📊</span>
+          <h2 class="accordion-title">Reading Velocity & Analytics</h2>
+          <span class="badge badge-accent">Interactive Plots</span>
+        </div>
+        <span class="accordion-toggle-icon">▼</span>
+      </div>
+      <div class="accordion-content charts-grid" id="charts-container-inner">
+        <div class="chart-card chart-card-wide">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title">📈 Cumulative Growth Curve</h3>
+            <span class="chart-card-subtitle">Pages & audio hours progression over time</span>
+          </div>
+          <div class="canvas-wrapper">
+            <canvas id="cumulativeChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card chart-card-wide">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title">📊 Monthly Reading Volume</h3>
+            <span class="chart-card-subtitle">Uniform distribution across active reading dates</span>
+          </div>
+          <div class="canvas-wrapper">
+            <canvas id="monthlyChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title">🏷️ Top Genres</h3>
+            <span class="chart-card-subtitle">Distribution by category</span>
+          </div>
+          <div class="canvas-wrapper canvas-donut">
+            <canvas id="genreChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-card-header">
+            <h3 class="chart-card-title">🎧 Format Split</h3>
+            <span class="chart-card-subtitle">Print / E-books vs Audiobooks</span>
+          </div>
+          <div class="canvas-wrapper canvas-donut">
+            <canvas id="formatChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <section class="controls-bar">
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all">All (<span id="count-all">0</span>)</button>
+        <button class="tab-btn" data-filter="book">📖 Books (<span id="count-books">0</span>)</button>
+        <button class="tab-btn" data-filter="audiobook">🎧 Audiobooks (<span id="count-audio">0</span>)</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search title, author, genre..." aria-label="Search books">
+      </div>
+    </section>
+
+    <!-- Currently Reading Section -->
+    <section class="accordion-section" id="currently-reading-section">
+      <div class="accordion-header" id="heading-reading">
+        <div class="accordion-title-wrap">
+          <span class="status-indicator live"></span>
+          <h2 class="accordion-title">Currently Reading</h2>
+          <span class="badge badge-accent" id="badge-reading-count">0</span>
+        </div>
+        <span class="accordion-toggle-icon">▼</span>
+      </div>
+      <div class="accordion-content" id="reading-books-list"></div>
+    </section>
+
+    <!-- Yearly Finished Sections Container -->
+    <section id="yearly-sections-container"></section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Built with ❤️ using Git, Python & GitHub Pages • Data backed in <code>data/books.json</code></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

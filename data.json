@@ -1,0 +1,2560 @@
+{
+  "kpis": {
+    "total_finished_books": 9,
+    "total_print_books": 5,
+    "total_audiobooks": 4,
+    "total_pages_read": 2327,
+    "total_audio_minutes": 3858,
+    "total_audio_hours_formatted": "64h 18m",
+    "total_words_read": 1257000,
+    "currently_reading_count": 1
+  },
+  "yearly_stats": [
+    {
+      "year": 2025,
+      "total_books": 4,
+      "books_count": 2,
+      "audiobooks_count": 2,
+      "pages_read": 703,
+      "audio_minutes": 2423,
+      "audio_hours_formatted": "40h 23m",
+      "words_read": 560000,
+      "books": [
+        {
+          "id": "the-three-body-problem",
+          "title": "The Three-Body Problem",
+          "author": "Cixin Liu",
+          "format": "book",
+          "status": "finished",
+          "start_date": "2025-01-10",
+          "end_date": "2025-02-05",
+          "pages": 400,
+          "audio_length_minutes": null,
+          "audio_duration_formatted": null,
+          "estimated_word_count": 118000,
+          "rating": 4.5,
+          "genres": [
+            "Hard Sci-Fi",
+            "Physics",
+            "First Contact"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/8231856-M.jpg",
+          "notes": "Fascinating cosmic scale concepts, chaotic orbital mechanics, and Fermi paradox contemplation.",
+          "duration_days": 27,
+          "pace": {
+            "unit": "pages/day",
+            "rate": 14.8,
+            "total": 400,
+            "days": 27
+          }
+        },
+        {
+          "id": "steve-jobs",
+          "title": "Steve Jobs",
+          "author": "Walter Isaacson",
+          "format": "audiobook",
+          "status": "finished",
+          "start_date": "2025-03-01",
+          "end_date": "2025-04-10",
+          "pages": null,
+          "audio_length_minutes": 1505,
+          "audio_duration_formatted": "25h 5m",
+          "estimated_word_count": 220000,
+          "rating": 4.5,
+          "genres": [
+            "Biography",
+            "Technology",
+            "Business"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/6979861-M.jpg",
+          "notes": "Unvarnished portrait of passion, design obsession, reality distortion field, and flaws.",
+          "duration_days": 41,
+          "pace": {
+            "unit": "min/day",
+            "rate": 36.7,
+            "total": 1505,
+            "days": 41
+          }
+        },
+        {
+          "id": "klara-and-the-sun",
+          "title": "Klara and the Sun",
+          "author": "Kazuo Ishiguro",
+          "format": "book",
+          "status": "finished",
+          "start_date": "2025-06-12",
+          "end_date": "2025-06-25",
+          "pages": 303,
+          "audio_length_minutes": null,
+          "audio_duration_formatted": null,
+          "estimated_word_count": 82000,
+          "rating": 4.0,
+          "genres": [
+            "Literary Sci-Fi",
+            "Artificial Intelligence"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/10574763-M.jpg",
+          "notes": "Tender, melancholic examination of what it means to love through an Artificial Friend's eyes.",
+          "duration_days": 14,
+          "pace": {
+            "unit": "pages/day",
+            "rate": 21.6,
+            "total": 303,
+            "days": 14
+          }
+        },
+        {
+          "id": "sapiens",
+          "title": "Sapiens: A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "format": "audiobook",
+          "status": "finished",
+          "start_date": "2025-09-01",
+          "end_date": "2025-09-29",
+          "pages": null,
+          "audio_length_minutes": 918,
+          "audio_duration_formatted": "15h 18m",
+          "estimated_word_count": 140000,
+          "rating": 4.5,
+          "genres": [
+            "History",
+            "Anthropology",
+            "Non-Fiction"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/8370162-M.jpg",
+          "notes": "The power of shared fictions and myths that allowed mass human cooperation.",
+          "duration_days": 29,
+          "pace": {
+            "unit": "min/day",
+            "rate": 31.7,
+            "total": 918,
+            "days": 29
+          }
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "total_books": 5,
+      "books_count": 3,
+      "audiobooks_count": 2,
+      "pages_read": 1624,
+      "audio_minutes": 1435,
+      "audio_hours_formatted": "23h 55m",
+      "words_read": 697000,
+      "books": [
+        {
+          "id": "project-hail-mary",
+          "title": "Project Hail Mary",
+          "author": "Andy Weir",
+          "format": "audiobook",
+          "status": "finished",
+          "start_date": "2024-01-10",
+          "end_date": "2024-01-26",
+          "pages": null,
+          "audio_length_minutes": 970,
+          "audio_duration_formatted": "16h 10m",
+          "estimated_word_count": 142000,
+          "rating": 5.0,
+          "genres": [
+            "Sci-Fi",
+            "Space",
+            "Adventure"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/10522049-M.jpg",
+          "notes": "Narrated by Ray Porter, exceptional audiobook performance and problem-solving narrative.",
+          "duration_days": 17,
+          "pace": {
+            "unit": "min/day",
+            "rate": 57.1,
+            "total": 970,
+            "days": 17
+          }
+        },
+        {
+          "id": "atomic-habits",
+          "title": "Atomic Habits",
+          "author": "James Clear",
+          "format": "book",
+          "status": "finished",
+          "start_date": "2024-02-01",
+          "end_date": "2024-02-15",
+          "pages": 320,
+          "audio_length_minutes": null,
+          "audio_duration_formatted": null,
+          "estimated_word_count": 85000,
+          "rating": 5.0,
+          "genres": [
+            "Self-Improvement",
+            "Psychology"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/12885621-M.jpg",
+          "notes": "Practical framework for continuous 1% marginal gains and system design over goals.",
+          "duration_days": 15,
+          "pace": {
+            "unit": "pages/day",
+            "rate": 21.3,
+            "total": 320,
+            "days": 15
+          }
+        },
+        {
+          "id": "dune",
+          "title": "Dune",
+          "author": "Frank Herbert",
+          "format": "book",
+          "status": "finished",
+          "start_date": "2024-03-01",
+          "end_date": "2024-03-28",
+          "pages": 688,
+          "audio_length_minutes": null,
+          "audio_duration_formatted": null,
+          "estimated_word_count": 188000,
+          "rating": 4.5,
+          "genres": [
+            "Sci-Fi",
+            "Classic",
+            "World-Building"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/12547191-M.jpg",
+          "notes": "Incredible world-building, politics, ecology, and prescience on Arrakis.",
+          "duration_days": 28,
+          "pace": {
+            "unit": "pages/day",
+            "rate": 24.6,
+            "total": 688,
+            "days": 28
+          }
+        },
+        {
+          "id": "deep-work",
+          "title": "Deep Work",
+          "author": "Cal Newport",
+          "format": "audiobook",
+          "status": "finished",
+          "start_date": "2024-05-05",
+          "end_date": "2024-05-18",
+          "pages": null,
+          "audio_length_minutes": 465,
+          "audio_duration_formatted": "7h 45m",
+          "estimated_word_count": 72000,
+          "rating": 4.0,
+          "genres": [
+            "Productivity",
+            "Non-Fiction"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/8315181-M.jpg",
+          "notes": "Focusing without distraction is becoming a superpower in the modern knowledge economy.",
+          "duration_days": 14,
+          "pace": {
+            "unit": "min/day",
+            "rate": 33.2,
+            "total": 465,
+            "days": 14
+          }
+        },
+        {
+          "id": "designing-data-intensive-applications",
+          "title": "Designing Data-Intensive Applications",
+          "author": "Martin Kleppmann",
+          "format": "book",
+          "status": "finished",
+          "start_date": "2024-07-01",
+          "end_date": "2024-08-30",
+          "pages": 616,
+          "audio_length_minutes": null,
+          "audio_duration_formatted": null,
+          "estimated_word_count": 210000,
+          "rating": 5.0,
+          "genres": [
+            "Computer Science",
+            "Distributed Systems",
+            "Engineering"
+          ],
+          "cover_url": "https://covers.openlibrary.org/b/id/8447814-M.jpg",
+          "notes": "The definitive bible on reliability, scalability, consistency, and storage engines.",
+          "duration_days": 61,
+          "pace": {
+            "unit": "pages/day",
+            "rate": 10.1,
+            "total": 616,
+            "days": 61
+          }
+        }
+      ]
+    }
+  ],
+  "genre_counts": [
+    {
+      "genre": "Sci-Fi",
+      "count": 2
+    },
+    {
+      "genre": "Non-Fiction",
+      "count": 2
+    },
+    {
+      "genre": "Space",
+      "count": 1
+    },
+    {
+      "genre": "Adventure",
+      "count": 1
+    },
+    {
+      "genre": "Self-Improvement",
+      "count": 1
+    },
+    {
+      "genre": "Psychology",
+      "count": 1
+    },
+    {
+      "genre": "Classic",
+      "count": 1
+    },
+    {
+      "genre": "World-Building",
+      "count": 1
+    },
+    {
+      "genre": "Productivity",
+      "count": 1
+    },
+    {
+      "genre": "Computer Science",
+      "count": 1
+    },
+    {
+      "genre": "Distributed Systems",
+      "count": 1
+    },
+    {
+      "genre": "Engineering",
+      "count": 1
+    },
+    {
+      "genre": "Hard Sci-Fi",
+      "count": 1
+    },
+    {
+      "genre": "Physics",
+      "count": 1
+    },
+    {
+      "genre": "First Contact",
+      "count": 1
+    },
+    {
+      "genre": "Biography",
+      "count": 1
+    },
+    {
+      "genre": "Technology",
+      "count": 1
+    },
+    {
+      "genre": "Business",
+      "count": 1
+    },
+    {
+      "genre": "Literary Sci-Fi",
+      "count": 1
+    },
+    {
+      "genre": "Artificial Intelligence",
+      "count": 1
+    },
+    {
+      "genre": "History",
+      "count": 1
+    },
+    {
+      "genre": "Anthropology",
+      "count": 1
+    }
+  ],
+  "currently_reading": [
+    {
+      "id": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "format": "book",
+      "status": "reading",
+      "start_date": "2026-11-15",
+      "end_date": null,
+      "pages": 499,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 160000,
+      "rating": null,
+      "genres": [
+        "Psychology",
+        "Cognitive Science",
+        "Behavioral Economics"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/7883256-M.jpg",
+      "notes": "System 1 intuitive thinking vs. System 2 deliberate reasoning.",
+      "duration_days": 12,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 41.6,
+        "total": 499,
+        "days": 12
+      }
+    }
+  ],
+  "books": [
+    {
+      "id": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "format": "audiobook",
+      "status": "finished",
+      "start_date": "2024-01-10",
+      "end_date": "2024-01-26",
+      "pages": null,
+      "audio_length_minutes": 970,
+      "audio_duration_formatted": "16h 10m",
+      "estimated_word_count": 142000,
+      "rating": 5.0,
+      "genres": [
+        "Sci-Fi",
+        "Space",
+        "Adventure"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/10522049-M.jpg",
+      "notes": "Narrated by Ray Porter, exceptional audiobook performance and problem-solving narrative.",
+      "duration_days": 17,
+      "pace": {
+        "unit": "min/day",
+        "rate": 57.1,
+        "total": 970,
+        "days": 17
+      }
+    },
+    {
+      "id": "atomic-habits",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "format": "book",
+      "status": "finished",
+      "start_date": "2024-02-01",
+      "end_date": "2024-02-15",
+      "pages": 320,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 85000,
+      "rating": 5.0,
+      "genres": [
+        "Self-Improvement",
+        "Psychology"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/12885621-M.jpg",
+      "notes": "Practical framework for continuous 1% marginal gains and system design over goals.",
+      "duration_days": 15,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 21.3,
+        "total": 320,
+        "days": 15
+      }
+    },
+    {
+      "id": "dune",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "format": "book",
+      "status": "finished",
+      "start_date": "2024-03-01",
+      "end_date": "2024-03-28",
+      "pages": 688,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 188000,
+      "rating": 4.5,
+      "genres": [
+        "Sci-Fi",
+        "Classic",
+        "World-Building"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/12547191-M.jpg",
+      "notes": "Incredible world-building, politics, ecology, and prescience on Arrakis.",
+      "duration_days": 28,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 24.6,
+        "total": 688,
+        "days": 28
+      }
+    },
+    {
+      "id": "deep-work",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "format": "audiobook",
+      "status": "finished",
+      "start_date": "2024-05-05",
+      "end_date": "2024-05-18",
+      "pages": null,
+      "audio_length_minutes": 465,
+      "audio_duration_formatted": "7h 45m",
+      "estimated_word_count": 72000,
+      "rating": 4.0,
+      "genres": [
+        "Productivity",
+        "Non-Fiction"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/8315181-M.jpg",
+      "notes": "Focusing without distraction is becoming a superpower in the modern knowledge economy.",
+      "duration_days": 14,
+      "pace": {
+        "unit": "min/day",
+        "rate": 33.2,
+        "total": 465,
+        "days": 14
+      }
+    },
+    {
+      "id": "designing-data-intensive-applications",
+      "title": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "format": "book",
+      "status": "finished",
+      "start_date": "2024-07-01",
+      "end_date": "2024-08-30",
+      "pages": 616,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 210000,
+      "rating": 5.0,
+      "genres": [
+        "Computer Science",
+        "Distributed Systems",
+        "Engineering"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/8447814-M.jpg",
+      "notes": "The definitive bible on reliability, scalability, consistency, and storage engines.",
+      "duration_days": 61,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 10.1,
+        "total": 616,
+        "days": 61
+      }
+    },
+    {
+      "id": "the-three-body-problem",
+      "title": "The Three-Body Problem",
+      "author": "Cixin Liu",
+      "format": "book",
+      "status": "finished",
+      "start_date": "2025-01-10",
+      "end_date": "2025-02-05",
+      "pages": 400,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 118000,
+      "rating": 4.5,
+      "genres": [
+        "Hard Sci-Fi",
+        "Physics",
+        "First Contact"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/8231856-M.jpg",
+      "notes": "Fascinating cosmic scale concepts, chaotic orbital mechanics, and Fermi paradox contemplation.",
+      "duration_days": 27,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 14.8,
+        "total": 400,
+        "days": 27
+      }
+    },
+    {
+      "id": "steve-jobs",
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "format": "audiobook",
+      "status": "finished",
+      "start_date": "2025-03-01",
+      "end_date": "2025-04-10",
+      "pages": null,
+      "audio_length_minutes": 1505,
+      "audio_duration_formatted": "25h 5m",
+      "estimated_word_count": 220000,
+      "rating": 4.5,
+      "genres": [
+        "Biography",
+        "Technology",
+        "Business"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/6979861-M.jpg",
+      "notes": "Unvarnished portrait of passion, design obsession, reality distortion field, and flaws.",
+      "duration_days": 41,
+      "pace": {
+        "unit": "min/day",
+        "rate": 36.7,
+        "total": 1505,
+        "days": 41
+      }
+    },
+    {
+      "id": "klara-and-the-sun",
+      "title": "Klara and the Sun",
+      "author": "Kazuo Ishiguro",
+      "format": "book",
+      "status": "finished",
+      "start_date": "2025-06-12",
+      "end_date": "2025-06-25",
+      "pages": 303,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 82000,
+      "rating": 4.0,
+      "genres": [
+        "Literary Sci-Fi",
+        "Artificial Intelligence"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/10574763-M.jpg",
+      "notes": "Tender, melancholic examination of what it means to love through an Artificial Friend's eyes.",
+      "duration_days": 14,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 21.6,
+        "total": 303,
+        "days": 14
+      }
+    },
+    {
+      "id": "sapiens",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "format": "audiobook",
+      "status": "finished",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-29",
+      "pages": null,
+      "audio_length_minutes": 918,
+      "audio_duration_formatted": "15h 18m",
+      "estimated_word_count": 140000,
+      "rating": 4.5,
+      "genres": [
+        "History",
+        "Anthropology",
+        "Non-Fiction"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/8370162-M.jpg",
+      "notes": "The power of shared fictions and myths that allowed mass human cooperation.",
+      "duration_days": 29,
+      "pace": {
+        "unit": "min/day",
+        "rate": 31.7,
+        "total": 918,
+        "days": 29
+      }
+    },
+    {
+      "id": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "format": "book",
+      "status": "reading",
+      "start_date": "2026-11-15",
+      "end_date": null,
+      "pages": 499,
+      "audio_length_minutes": null,
+      "audio_duration_formatted": null,
+      "estimated_word_count": 160000,
+      "rating": null,
+      "genres": [
+        "Psychology",
+        "Cognitive Science",
+        "Behavioral Economics"
+      ],
+      "cover_url": "https://covers.openlibrary.org/b/id/7883256-M.jpg",
+      "notes": "System 1 intuitive thinking vs. System 2 deliberate reasoning.",
+      "duration_days": 12,
+      "pace": {
+        "unit": "pages/day",
+        "rate": 41.6,
+        "total": 499,
+        "days": 12
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-01-10",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 1.0
+    },
+    {
+      "date": "2024-01-11",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 1.9
+    },
+    {
+      "date": "2024-01-12",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 2.9
+    },
+    {
+      "date": "2024-01-13",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 3.8
+    },
+    {
+      "date": "2024-01-14",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 4.8
+    },
+    {
+      "date": "2024-01-15",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 5.7
+    },
+    {
+      "date": "2024-01-16",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 6.7
+    },
+    {
+      "date": "2024-01-17",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 7.6
+    },
+    {
+      "date": "2024-01-18",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 8.6
+    },
+    {
+      "date": "2024-01-19",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 9.5
+    },
+    {
+      "date": "2024-01-20",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 10.5
+    },
+    {
+      "date": "2024-01-21",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 11.4
+    },
+    {
+      "date": "2024-01-22",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 12.4
+    },
+    {
+      "date": "2024-01-23",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 13.3
+    },
+    {
+      "date": "2024-01-24",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 14.3
+    },
+    {
+      "date": "2024-01-25",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 15.2
+    },
+    {
+      "date": "2024-01-26",
+      "pages": 0.0,
+      "audio_minutes": 57.1,
+      "cumulative_pages": 0.0,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-01",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 21.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-02",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 42.6,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-03",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 63.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-04",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 85.2,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-05",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 106.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-06",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 127.8,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-07",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 149.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-08",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 170.4,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-09",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 191.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-10",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 213.0,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-11",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 234.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-12",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 255.6,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-13",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 276.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-14",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 298.2,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-02-15",
+      "pages": 21.3,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 319.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-01",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 344.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-02",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 368.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-03",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 393.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-04",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 417.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-05",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 442.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-06",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 467.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-07",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 491.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-08",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 516.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-09",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 540.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-10",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 565.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-11",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 590.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-12",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 614.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-13",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 639.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-14",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 663.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-15",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 688.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-16",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 713.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-17",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 737.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-18",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 762.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-19",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 786.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-20",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 811.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-21",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 836.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-22",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 860.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-23",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 885.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-24",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 909.9,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-25",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 934.5,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-26",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 959.1,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-27",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 983.7,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-03-28",
+      "pages": 24.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 16.2
+    },
+    {
+      "date": "2024-05-05",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 16.7
+    },
+    {
+      "date": "2024-05-06",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 17.3
+    },
+    {
+      "date": "2024-05-07",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 17.8
+    },
+    {
+      "date": "2024-05-08",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 18.4
+    },
+    {
+      "date": "2024-05-09",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 18.9
+    },
+    {
+      "date": "2024-05-10",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 19.5
+    },
+    {
+      "date": "2024-05-11",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 20.1
+    },
+    {
+      "date": "2024-05-12",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 20.6
+    },
+    {
+      "date": "2024-05-13",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 21.2
+    },
+    {
+      "date": "2024-05-14",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 21.7
+    },
+    {
+      "date": "2024-05-15",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 22.3
+    },
+    {
+      "date": "2024-05-16",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 22.8
+    },
+    {
+      "date": "2024-05-17",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 23.4
+    },
+    {
+      "date": "2024-05-18",
+      "pages": 0.0,
+      "audio_minutes": 33.2,
+      "cumulative_pages": 1008.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-01",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1018.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-02",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1028.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-03",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1038.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-04",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1048.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-05",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1058.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-06",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1068.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-07",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1079.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-08",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1089.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-09",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1099.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-10",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1109.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-11",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1119.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-12",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1129.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-13",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1139.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-14",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1149.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-15",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1159.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-16",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1169.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-17",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1180.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-18",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1190.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-19",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1200.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-20",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1210.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-21",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1220.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-22",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1230.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-23",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1240.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-24",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1250.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-25",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1260.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-26",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1270.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-27",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1281.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-28",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1291.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-29",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1301.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-30",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1311.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-07-31",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1321.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-01",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1331.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-02",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1341.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-03",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1351.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-04",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1361.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-05",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1371.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-06",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1382.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-07",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1392.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-08",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1402.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-09",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1412.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-10",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1422.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-11",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1432.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-12",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1442.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-13",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1452.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-14",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1462.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-15",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1472.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-16",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1483.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-17",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1493.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-18",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1503.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-19",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1513.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-20",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1523.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-21",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1533.5,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-22",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1543.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-23",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1553.7,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-24",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1563.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-25",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1573.9,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-26",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1584.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-27",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1594.1,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-28",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1604.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-29",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1614.3,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2024-08-30",
+      "pages": 10.1,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1624.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-10",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1639.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-11",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1654.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-12",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1668.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-13",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1683.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-14",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1698.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-15",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1713.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-16",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1728.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-17",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1742.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-18",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1757.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-19",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1772.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-20",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1787.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-21",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1802.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-22",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1816.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-23",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1831.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-24",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1846.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-25",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1861.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-26",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1876.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-27",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1890.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-28",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1905.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-29",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1920.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-30",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1935.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-01-31",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1950.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-02-01",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1964.8,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-02-02",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1979.6,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-02-03",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 1994.4,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-02-04",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2009.2,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-02-05",
+      "pages": 14.8,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 23.9
+    },
+    {
+      "date": "2025-03-01",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 24.5
+    },
+    {
+      "date": "2025-03-02",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 25.1
+    },
+    {
+      "date": "2025-03-03",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 25.8
+    },
+    {
+      "date": "2025-03-04",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 26.4
+    },
+    {
+      "date": "2025-03-05",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 27.0
+    },
+    {
+      "date": "2025-03-06",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 27.6
+    },
+    {
+      "date": "2025-03-07",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 28.2
+    },
+    {
+      "date": "2025-03-08",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 28.8
+    },
+    {
+      "date": "2025-03-09",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 29.4
+    },
+    {
+      "date": "2025-03-10",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 30.0
+    },
+    {
+      "date": "2025-03-11",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 30.7
+    },
+    {
+      "date": "2025-03-12",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 31.3
+    },
+    {
+      "date": "2025-03-13",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 31.9
+    },
+    {
+      "date": "2025-03-14",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 32.5
+    },
+    {
+      "date": "2025-03-15",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 33.1
+    },
+    {
+      "date": "2025-03-16",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 33.7
+    },
+    {
+      "date": "2025-03-17",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 34.3
+    },
+    {
+      "date": "2025-03-18",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 34.9
+    },
+    {
+      "date": "2025-03-19",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 35.5
+    },
+    {
+      "date": "2025-03-20",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 36.2
+    },
+    {
+      "date": "2025-03-21",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 36.8
+    },
+    {
+      "date": "2025-03-22",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 37.4
+    },
+    {
+      "date": "2025-03-23",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 38.0
+    },
+    {
+      "date": "2025-03-24",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 38.6
+    },
+    {
+      "date": "2025-03-25",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 39.2
+    },
+    {
+      "date": "2025-03-26",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 39.8
+    },
+    {
+      "date": "2025-03-27",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 40.4
+    },
+    {
+      "date": "2025-03-28",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 41.1
+    },
+    {
+      "date": "2025-03-29",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 41.7
+    },
+    {
+      "date": "2025-03-30",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 42.3
+    },
+    {
+      "date": "2025-03-31",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 42.9
+    },
+    {
+      "date": "2025-04-01",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 43.5
+    },
+    {
+      "date": "2025-04-02",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 44.1
+    },
+    {
+      "date": "2025-04-03",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 44.7
+    },
+    {
+      "date": "2025-04-04",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 45.3
+    },
+    {
+      "date": "2025-04-05",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 45.9
+    },
+    {
+      "date": "2025-04-06",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 46.6
+    },
+    {
+      "date": "2025-04-07",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 47.2
+    },
+    {
+      "date": "2025-04-08",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 47.8
+    },
+    {
+      "date": "2025-04-09",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 48.4
+    },
+    {
+      "date": "2025-04-10",
+      "pages": 0.0,
+      "audio_minutes": 36.7,
+      "cumulative_pages": 2024.0,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-12",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2045.6,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-13",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2067.2,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-14",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2088.8,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-15",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2110.4,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-16",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2132.0,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-17",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2153.6,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-18",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2175.2,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-19",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2196.8,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-20",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2218.4,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-21",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2240.0,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-22",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2261.6,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-23",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2283.2,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-24",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2304.8,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-06-25",
+      "pages": 21.6,
+      "audio_minutes": 0.0,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 49.0
+    },
+    {
+      "date": "2025-09-01",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 49.5
+    },
+    {
+      "date": "2025-09-02",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 50.1
+    },
+    {
+      "date": "2025-09-03",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 50.6
+    },
+    {
+      "date": "2025-09-04",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 51.1
+    },
+    {
+      "date": "2025-09-05",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 51.6
+    },
+    {
+      "date": "2025-09-06",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 52.2
+    },
+    {
+      "date": "2025-09-07",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 52.7
+    },
+    {
+      "date": "2025-09-08",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 53.2
+    },
+    {
+      "date": "2025-09-09",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 53.8
+    },
+    {
+      "date": "2025-09-10",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 54.3
+    },
+    {
+      "date": "2025-09-11",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 54.8
+    },
+    {
+      "date": "2025-09-12",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 55.3
+    },
+    {
+      "date": "2025-09-13",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 55.9
+    },
+    {
+      "date": "2025-09-14",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 56.4
+    },
+    {
+      "date": "2025-09-15",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 56.9
+    },
+    {
+      "date": "2025-09-16",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 57.5
+    },
+    {
+      "date": "2025-09-17",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 58.0
+    },
+    {
+      "date": "2025-09-18",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 58.5
+    },
+    {
+      "date": "2025-09-19",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 59.0
+    },
+    {
+      "date": "2025-09-20",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 59.6
+    },
+    {
+      "date": "2025-09-21",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 60.1
+    },
+    {
+      "date": "2025-09-22",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 60.6
+    },
+    {
+      "date": "2025-09-23",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 61.2
+    },
+    {
+      "date": "2025-09-24",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 61.7
+    },
+    {
+      "date": "2025-09-25",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 62.2
+    },
+    {
+      "date": "2025-09-26",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 62.7
+    },
+    {
+      "date": "2025-09-27",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 63.3
+    },
+    {
+      "date": "2025-09-28",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 63.8
+    },
+    {
+      "date": "2025-09-29",
+      "pages": 0.0,
+      "audio_minutes": 31.7,
+      "cumulative_pages": 2326.4,
+      "cumulative_audio_hours": 64.3
+    }
+  ],
+  "monthly_stats": [
+    {
+      "month": "2024-01",
+      "label": "Jan '24",
+      "pages": 0,
+      "audio_hours": 16.2,
+      "books_finished": 1
+    },
+    {
+      "month": "2024-02",
+      "label": "Feb '24",
+      "pages": 320,
+      "audio_hours": 0.0,
+      "books_finished": 1
+    },
+    {
+      "month": "2024-03",
+      "label": "Mar '24",
+      "pages": 689,
+      "audio_hours": 0.0,
+      "books_finished": 1
+    },
+    {
+      "month": "2024-04",
+      "label": "Apr '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-05",
+      "label": "May '24",
+      "pages": 0,
+      "audio_hours": 7.7,
+      "books_finished": 1
+    },
+    {
+      "month": "2024-06",
+      "label": "Jun '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-07",
+      "label": "Jul '24",
+      "pages": 313,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-08",
+      "label": "Aug '24",
+      "pages": 303,
+      "audio_hours": 0.0,
+      "books_finished": 1
+    },
+    {
+      "month": "2024-09",
+      "label": "Sep '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-10",
+      "label": "Oct '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-11",
+      "label": "Nov '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2024-12",
+      "label": "Dec '24",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-01",
+      "label": "Jan '25",
+      "pages": 326,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-02",
+      "label": "Feb '25",
+      "pages": 74,
+      "audio_hours": 0.0,
+      "books_finished": 1
+    },
+    {
+      "month": "2025-03",
+      "label": "Mar '25",
+      "pages": 0,
+      "audio_hours": 19.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-04",
+      "label": "Apr '25",
+      "pages": 0,
+      "audio_hours": 6.1,
+      "books_finished": 1
+    },
+    {
+      "month": "2025-05",
+      "label": "May '25",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-06",
+      "label": "Jun '25",
+      "pages": 302,
+      "audio_hours": 0.0,
+      "books_finished": 1
+    },
+    {
+      "month": "2025-07",
+      "label": "Jul '25",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-08",
+      "label": "Aug '25",
+      "pages": 0,
+      "audio_hours": 0.0,
+      "books_finished": 0
+    },
+    {
+      "month": "2025-09",
+      "label": "Sep '25",
+      "pages": 0,
+      "audio_hours": 15.3,
+      "books_finished": 1
+    }
+  ],
+  "built_at": "2026-11-26T01:30:00Z"
+}
