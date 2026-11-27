@@ -34,25 +34,30 @@ class TestSiteBuilder(unittest.TestCase):
             self.assertGreaterEqual(saved["kpis"]["total_finished_books"], 2)
 
     def test_frontend_assets_exist(self):
-        """Verify core HTML, CSS, and JS frontend files exist and are non-empty."""
+        """Verify core HTML, CSS, JS, and favicon frontend files exist and are non-empty."""
         index_html = os.path.join(DOCS_DIR, "index.html")
         style_css = os.path.join(DOCS_DIR, "style.css")
         app_js = os.path.join(DOCS_DIR, "app.js")
+        favicon_svg = os.path.join(DOCS_DIR, "favicon.svg")
 
         self.assertTrue(os.path.isfile(index_html))
         self.assertTrue(os.path.isfile(style_css))
         self.assertTrue(os.path.isfile(app_js))
+        self.assertTrue(os.path.isfile(favicon_svg))
 
         self.assertGreater(os.path.getsize(index_html), 500)
         self.assertGreater(os.path.getsize(style_css), 1000)
         self.assertGreater(os.path.getsize(app_js), 1000)
+        self.assertGreater(os.path.getsize(favicon_svg), 200)
 
     def test_html_contains_critical_dom_elements(self):
-        """Verify index.html contains necessary hooks for app.js."""
+        """Verify index.html contains necessary hooks for app.js and favicon."""
         index_html = os.path.join(DOCS_DIR, "index.html")
         with open(index_html, "r", encoding="utf-8") as f:
             html = f.read()
 
+        self.assertIn('rel="icon"', html)
+        self.assertIn('href="favicon.svg"', html)
         self.assertIn('id="kpi-books"', html)
         self.assertIn('id="kpi-pages"', html)
         self.assertIn('id="kpi-audio"', html)
