@@ -195,7 +195,9 @@ function renderYearlySections() {
     section.id = `year-section-${yearData.year}`;
 
     // Header summary
-    const summaryText = `${matchingBooks.length} book${matchingBooks.length === 1 ? '' : 's'} • ${yearData.pages_read.toLocaleString()} pages • ${yearData.audio_hours_formatted} audio`;
+    const pagesPart = yearData.pages_read > 0 ? `${yearData.pages_read.toLocaleString()} pages • ` : '';
+    const wordsPart = yearData.words_read > 0 ? `${yearData.words_read.toLocaleString()} words • ` : '';
+    const summaryText = `${matchingBooks.length} book${matchingBooks.length === 1 ? '' : 's'} • ${pagesPart || wordsPart}${yearData.audio_hours_formatted} audio`;
 
     section.innerHTML = `
       <div class="accordion-header" onclick="toggleYearSection('${yearData.year}')">
@@ -256,6 +258,16 @@ function createBookCard(b) {
     pacePill = `<span class="pill">⚡ ${b.pace.rate} ${b.pace.unit}</span>`;
   }
 
+  // Length pill
+  let lengthPill = '';
+  if (isAudio) {
+    lengthPill = `<span class="pill">⏱️ ${b.audio_duration_formatted || (b.audio_length_minutes + 'm')}</span>`;
+  } else if (b.pages) {
+    lengthPill = `<span class="pill">📄 ${b.pages} pages</span>`;
+  } else if (b.word_count) {
+    lengthPill = `<span class="pill">📝 ${b.word_count.toLocaleString()} words</span>`;
+  }
+
   // Cover fallback
   const fallbackCover = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="65" height="95" viewBox="0 0 65 95"><rect width="65" height="95" fill="%23334155"/><text x="32" y="50" font-size="20" fill="%2394a3b8" text-anchor="middle" dominant-baseline="middle">📚</text></svg>';
   const coverSrc = b.cover_url || fallbackCover;
@@ -277,7 +289,7 @@ function createBookCard(b) {
         <div class="book-author">by ${b.author}</div>
         <div class="book-meta-pills">
           ${pacePill}
-          ${isAudio ? `<span class="pill">⏱️ ${b.audio_duration_formatted}</span>` : `<span class="pill">📄 ${b.pages} pages</span>`}
+          ${lengthPill}
           <span class="pill">🌐 ${b.language || 'English'}</span>
           <span class="pill">🗓️ ${b.duration_days} days</span>
         </div>
@@ -291,8 +303,8 @@ function createBookCard(b) {
         <span>${formatDateRange(b.start_date, b.end_date)}</span>
       </div>
       <div class="drawer-row">
-        <span class="drawer-label">${isAudio ? 'Total Audio Duration:' : 'Page Count:'}</span>
-        <span>${isAudio ? `${b.audio_duration_formatted} (${b.audio_length_minutes} mins)` : `${b.pages} pages`}</span>
+        <span class="drawer-label">${isAudio ? 'Total Audio Duration:' : (b.pages ? 'Page Count:' : 'Word Count:')}</span>
+        <span>${isAudio ? `${b.audio_duration_formatted} (${b.audio_length_minutes} mins)` : (b.pages ? `${b.pages} pages` : `${(b.word_count || 0).toLocaleString()} words`)}</span>
       </div>
       <div class="drawer-row">
         <span class="drawer-label">Language:</span>
