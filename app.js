@@ -115,6 +115,14 @@ function renderKPIs() {
   } else {
     document.getElementById('kpi-words').textContent = '—';
   }
+
+  // Update build / sync timestamp in header
+  if (appState.data.generated_at) {
+    const lastUpdatedEl = document.getElementById('last-updated');
+    if (lastUpdatedEl) {
+      lastUpdatedEl.textContent = `Updated: ${appState.data.generated_at}`;
+    }
+  }
 }
 
 function updateCounts() {
