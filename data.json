@@ -6,7 +6,7 @@
     "total_pages_read": 2327,
     "total_audio_minutes": 3858,
     "total_audio_hours_formatted": "64h 18m",
-    "total_words_read": 1257000,
+    "total_words_read": 0,
     "currently_reading_count": 1
   },
   "yearly_stats": [
@@ -18,7 +18,7 @@
       "pages_read": 703,
       "audio_minutes": 2423,
       "audio_hours_formatted": "40h 23m",
-      "words_read": 560000,
+      "words_read": 0,
       "books": [
         {
           "id": "the-three-body-problem",
@@ -31,7 +31,9 @@
           "pages": 400,
           "audio_length_minutes": null,
           "audio_duration_formatted": null,
-          "estimated_word_count": 118000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.5,
           "genres": [
             "Hard Sci-Fi",
@@ -59,7 +61,9 @@
           "pages": null,
           "audio_length_minutes": 1505,
           "audio_duration_formatted": "25h 5m",
-          "estimated_word_count": 220000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.5,
           "genres": [
             "Biography",
@@ -87,7 +91,9 @@
           "pages": 303,
           "audio_length_minutes": null,
           "audio_duration_formatted": null,
-          "estimated_word_count": 82000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.0,
           "genres": [
             "Literary Sci-Fi",
@@ -114,7 +120,9 @@
           "pages": null,
           "audio_length_minutes": 918,
           "audio_duration_formatted": "15h 18m",
-          "estimated_word_count": 140000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.5,
           "genres": [
             "History",
@@ -141,7 +149,7 @@
       "pages_read": 1624,
       "audio_minutes": 1435,
       "audio_hours_formatted": "23h 55m",
-      "words_read": 697000,
+      "words_read": 0,
       "books": [
         {
           "id": "project-hail-mary",
@@ -154,7 +162,9 @@
           "pages": null,
           "audio_length_minutes": 970,
           "audio_duration_formatted": "16h 10m",
-          "estimated_word_count": 142000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 5.0,
           "genres": [
             "Sci-Fi",
@@ -182,7 +192,9 @@
           "pages": 320,
           "audio_length_minutes": null,
           "audio_duration_formatted": null,
-          "estimated_word_count": 85000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 5.0,
           "genres": [
             "Self-Improvement",
@@ -209,7 +221,9 @@
           "pages": 688,
           "audio_length_minutes": null,
           "audio_duration_formatted": null,
-          "estimated_word_count": 188000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.5,
           "genres": [
             "Sci-Fi",
@@ -237,7 +251,9 @@
           "pages": null,
           "audio_length_minutes": 465,
           "audio_duration_formatted": "7h 45m",
-          "estimated_word_count": 72000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 4.0,
           "genres": [
             "Productivity",
@@ -264,7 +280,9 @@
           "pages": 616,
           "audio_length_minutes": null,
           "audio_duration_formatted": null,
-          "estimated_word_count": 210000,
+          "word_count": null,
+          "estimated_word_count": null,
+          "language": "English",
           "rating": 5.0,
           "genres": [
             "Computer Science",
@@ -374,6 +392,12 @@
       "count": 1
     }
   ],
+  "language_counts": [
+    {
+      "language": "English",
+      "count": 9
+    }
+  ],
   "currently_reading": [
     {
       "id": "thinking-fast-and-slow",
@@ -386,7 +410,9 @@
       "pages": 499,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 160000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": null,
       "genres": [
         "Psychology",
@@ -395,12 +421,12 @@
       ],
       "cover_url": "https://covers.openlibrary.org/b/id/7883256-M.jpg",
       "notes": "System 1 intuitive thinking vs. System 2 deliberate reasoning.",
-      "duration_days": 12,
+      "duration_days": 13,
       "pace": {
         "unit": "pages/day",
-        "rate": 41.6,
+        "rate": 38.4,
         "total": 499,
-        "days": 12
+        "days": 13
       }
     }
   ],
@@ -416,7 +442,9 @@
       "pages": null,
       "audio_length_minutes": 970,
       "audio_duration_formatted": "16h 10m",
-      "estimated_word_count": 142000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 5.0,
       "genres": [
         "Sci-Fi",
@@ -444,7 +472,9 @@
       "pages": 320,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 85000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 5.0,
       "genres": [
         "Self-Improvement",
@@ -471,7 +501,9 @@
       "pages": 688,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 188000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.5,
       "genres": [
         "Sci-Fi",
@@ -499,7 +531,9 @@
       "pages": null,
       "audio_length_minutes": 465,
       "audio_duration_formatted": "7h 45m",
-      "estimated_word_count": 72000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.0,
       "genres": [
         "Productivity",
@@ -526,7 +560,9 @@
       "pages": 616,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 210000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 5.0,
       "genres": [
         "Computer Science",
@@ -554,7 +590,9 @@
       "pages": 400,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 118000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.5,
       "genres": [
         "Hard Sci-Fi",
@@ -582,7 +620,9 @@
       "pages": null,
       "audio_length_minutes": 1505,
       "audio_duration_formatted": "25h 5m",
-      "estimated_word_count": 220000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.5,
       "genres": [
         "Biography",
@@ -610,7 +650,9 @@
       "pages": 303,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 82000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.0,
       "genres": [
         "Literary Sci-Fi",
@@ -637,7 +679,9 @@
       "pages": null,
       "audio_length_minutes": 918,
       "audio_duration_formatted": "15h 18m",
-      "estimated_word_count": 140000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": 4.5,
       "genres": [
         "History",
@@ -665,7 +709,9 @@
       "pages": 499,
       "audio_length_minutes": null,
       "audio_duration_formatted": null,
-      "estimated_word_count": 160000,
+      "word_count": null,
+      "estimated_word_count": null,
+      "language": "English",
       "rating": null,
       "genres": [
         "Psychology",
@@ -674,12 +720,12 @@
       ],
       "cover_url": "https://covers.openlibrary.org/b/id/7883256-M.jpg",
       "notes": "System 1 intuitive thinking vs. System 2 deliberate reasoning.",
-      "duration_days": 12,
+      "duration_days": 13,
       "pace": {
         "unit": "pages/day",
-        "rate": 41.6,
+        "rate": 38.4,
         "total": 499,
-        "days": 12
+        "days": 13
       }
     }
   ],

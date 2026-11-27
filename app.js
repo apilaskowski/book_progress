@@ -106,7 +106,15 @@ function renderKPIs() {
   
   document.getElementById('kpi-pages').textContent = kpis.total_pages_read.toLocaleString();
   document.getElementById('kpi-audio').textContent = kpis.total_audio_hours_formatted;
-  document.getElementById('kpi-words').textContent = `~${(kpis.total_words_read / 1000000).toFixed(1)}M`;
+  if (kpis.total_words_read && kpis.total_words_read > 0) {
+    if (kpis.total_words_read >= 1000000) {
+      document.getElementById('kpi-words').textContent = `${(kpis.total_words_read / 1000000).toFixed(2)}M`;
+    } else {
+      document.getElementById('kpi-words').textContent = kpis.total_words_read.toLocaleString();
+    }
+  } else {
+    document.getElementById('kpi-words').textContent = '—';
+  }
 }
 
 function updateCounts() {
@@ -128,7 +136,8 @@ function matchesFilter(book) {
     const titleMatch = book.title.toLowerCase().includes(q);
     const authorMatch = book.author.toLowerCase().includes(q);
     const genreMatch = (book.genres || []).some(g => g.toLowerCase().includes(q));
-    if (!titleMatch && !authorMatch && !genreMatch) return false;
+    const langMatch = (book.language || '').toLowerCase().includes(q);
+    if (!titleMatch && !authorMatch && !genreMatch && !langMatch) return false;
   }
   return true;
 }
@@ -223,6 +232,11 @@ function createBookCard(b) {
     ? `<span class="badge badge-audiobook">🎧 Audiobook</span>`
     : `<span class="badge badge-book">📖 Print/E-Book</span>`;
 
+  // Check for re-read (if same title appears multiple times in all books)
+  const allBooksList = appState.data.books || [];
+  const sameTitleCount = allBooksList.filter(x => x.title.toLowerCase().trim() === b.title.toLowerCase().trim()).length;
+  const rereadBadge = sameTitleCount > 1 ? `<span class="badge badge-accent">🔄 Re-read</span>` : '';
+
   // Star rating
   const ratingStars = formatRatingStars(b.rating);
 
@@ -245,7 +259,10 @@ function createBookCard(b) {
       </div>
       <div class="book-info">
         <div class="book-top">
-          ${formatBadge}
+          <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap;">
+            ${formatBadge}
+            ${rereadBadge}
+          </div>
           <div class="book-rating">${ratingStars}</div>
         </div>
         <div class="book-title">${b.title}</div>
@@ -253,6 +270,7 @@ function createBookCard(b) {
         <div class="book-meta-pills">
           ${pacePill}
           ${isAudio ? `<span class="pill">⏱️ ${b.audio_duration_formatted}</span>` : `<span class="pill">📄 ${b.pages} pages</span>`}
+          <span class="pill">🌐 ${b.language || 'English'}</span>
           <span class="pill">🗓️ ${b.duration_days} days</span>
         </div>
       </div>
@@ -269,8 +287,12 @@ function createBookCard(b) {
         <span>${isAudio ? `${b.audio_duration_formatted} (${b.audio_length_minutes} mins)` : `${b.pages} pages`}</span>
       </div>
       <div class="drawer-row">
-        <span class="drawer-label">Estimated Word Count:</span>
-        <span>${b.estimated_word_count ? b.estimated_word_count.toLocaleString() + ' words' : 'N/A'}</span>
+        <span class="drawer-label">Language:</span>
+        <span>${b.language || 'English'}</span>
+      </div>
+      <div class="drawer-row">
+        <span class="drawer-label">Word Count:</span>
+        <span>${b.word_count ? b.word_count.toLocaleString() + ' words' : 'Not recorded'}</span>
       </div>
       ${b.genres && b.genres.length ? `
         <div class="drawer-genres">
@@ -327,6 +349,7 @@ function renderCharts() {
   renderMonthlyChart();
   renderGenreChart();
   renderFormatChart();
+  renderLanguageChart();
 }
 
 function renderCumulativeChart() {
@@ -583,6 +606,55 @@ function renderFormatChart() {
       datasets: [{
         data: data,
         backgroundColor: ['#10b981', '#a855f7'],
+        borderColor: theme.tooltipBg,
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { color: theme.textColor, boxWidth: 12, font: { size: 10 } }
+        },
+        tooltip: {
+          backgroundColor: theme.tooltipBg,
+          titleColor: theme.tooltipText,
+          bodyColor: theme.tooltipText,
+          borderColor: theme.gridColor,
+          borderWidth: 1
+        }
+      },
+      cutout: '65%'
+    }
+  });
+}
+
+function renderLanguageChart() {
+  const ctx = document.getElementById('languageChart');
+  if (!ctx) return;
+
+  if (appState.charts.language) {
+    appState.charts.language.destroy();
+  }
+
+  const langCounts = appState.data.language_counts || [];
+  if (langCounts.length === 0) return;
+
+  const labels = langCounts.map(l => l.language);
+  const data = langCounts.map(l => l.count);
+
+  const theme = getChartTheme();
+  const palette = ['#06b6d4', '#f59e0b', '#3b82f6', '#ec4899', '#10b981', '#8b5cf6'];
+
+  appState.charts.language = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: palette,
         borderColor: theme.tooltipBg,
         borderWidth: 2
       }]
